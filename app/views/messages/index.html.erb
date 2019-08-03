@@ -1,0 +1,11 @@
+<% @messages.each do |message| %>
+<div class="name-message clearfix">
+  <div class="name">
+    <%= message.user.name %>: 
+
+  </div>
+  <div class="message">
+    <%= message.content %>
+  </div>
+</div>
+<% end %>
